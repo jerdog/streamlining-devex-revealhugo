@@ -3,10 +3,30 @@ languageCode = 'en-us'
 title = 'Streamlining DevEx: The Power of CI/CD Standardization and Interoperability'
 theme = ["github.com/dzello/reveal-hugo"]
 
-[markup.goldmark.renderer]
-unsafe = true
-
 [outputFormats.Reveal]
-baseName = "index"
-mediaType = "text/html"
-isHTML = true
+  baseName = "index"
+  mediaType = "text/html"
+  isHTML = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = true
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  [params.logo]
+    src = '/images/twitter-iamjerdog.png'
+    top = '90%'
+    left = '80%'
+    width = '15%'
+  [params.logo-btm-left]
+    src = '/images/twitter-iamjerdog.png'
+    top = '90%'
+    left = '5%'
+    width = '15%'
+    #opacity = '0.5'

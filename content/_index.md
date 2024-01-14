@@ -13,8 +13,9 @@ outputs = ["Reveal"]
 <!-- https://twitter.com/GreyNewell/status/1737295403052126213 -->
 
 ---
+{{< slide background-image="/images/slides/1-d3fd3e68-8b83-4cd0-b705-6dad4e5d7691.webp" background-opacity="1" >}}
 
-## Impact of CI/CD on modern software development and DX
+<!-- ## Impact of CI/CD on modern software development and DX -->
 
 {{% note %}}
 In the rapidly evolving landscape of modern software development, Continuous Integration and Continuous Delivery (CI/CD) stand as transformative pillars, reshaping how software is delivered and the very experience of those crafting it.  
@@ -22,11 +23,17 @@ In the rapidly evolving landscape of modern software development, Continuous Int
 
 ---
 
-## Definition of DX
+{{< slide background-image="/images/slides/2b-d316afa9-e89f-4bb6-9bca-11f73973a99f.webp" background-opacity="1" >}}
+
+## Definition of DevEX
 
 {{% note %}}
 Developer Experience (DX) refers to developers' overall satisfaction and efficiency while working on software projects. It encompasses the tools, processes, and environments that shape developers' interactions with code, infrastructure, and each other. A positive DX is crucial for enhancing productivity as it directly influences how quickly and effectively developers can build, test, and deploy software.
 {{% /note %}}
+
+---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ## CI/CD's transformative influence on DX
 
@@ -36,6 +43,8 @@ CI/CD's impact on Developer Experience (DX) is profound, offering a dynamic shif
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ## 
 
 {{% note %}}
@@ -44,6 +53,8 @@ By streamlining workflows, reducing friction, and providing intuitive tools, a g
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### CI/CD Standardization
 
 {{% note %}}
@@ -51,6 +62,8 @@ CI/CD standardization brings consistency to development pipelines, reducing fric
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Interoperability
 
@@ -62,6 +75,8 @@ Together, they both play pivotal roles in optimizing DX and improving overall pr
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ## Implementing CI/CD Standardization
 
 {{% note %}}
@@ -69,6 +84,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Assessment and Analysis
 
@@ -80,6 +97,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Define Standardization Goals
 
 {{% note %}}
@@ -88,6 +107,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Select Standardization Tools and Practices
 
@@ -99,6 +120,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Documentation and Training
 
 {{% note %}}
@@ -107,6 +130,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Version Control
 
@@ -117,6 +142,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Automated Testing and Validation
 
 {{% note %}}
@@ -125,6 +152,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Continuous Monitoring and Improvement
 
@@ -135,6 +164,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Governance and Compliance
 
 {{% note %}}
@@ -144,6 +175,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Scaling and Adaptation
 
 {{% note %}}
@@ -152,6 +185,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Feedback Loop and Collaboration
 
@@ -166,6 +201,8 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Argo
 
 {{% note %}}
@@ -175,6 +212,8 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Argo
 
@@ -186,6 +225,8 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Argo
 
 {{% note %}}
@@ -195,6 +236,8 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Flux
 
@@ -206,6 +249,8 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Flux
 
 {{% note %}}
@@ -216,6 +261,8 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Flux
 
 {{% note %}}
@@ -225,6 +272,8 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Achieving Standardized Workflows
 
@@ -238,6 +287,8 @@ By leveraging tools like Argo and Flux, organizations can establish and maintain
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Achieving Standardized Workflows
 
 {{% note %}}
@@ -246,6 +297,8 @@ By leveraging tools like Argo and Flux, organizations can establish and maintain
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Achieving Standardized Workflows
 
@@ -257,6 +310,8 @@ By leveraging tools like Argo and Flux, organizations can establish and maintain
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Achieving Standardized Workflows
 
 {{% note %}}
@@ -266,6 +321,8 @@ By leveraging tools like Argo and Flux, organizations can establish and maintain
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ## The role of Interoperability
 
@@ -277,6 +334,8 @@ The importance of interoperability in CI/CD systems for collaboration is multifa
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Interoperability for collaboration
 
 {{% note %}}
@@ -284,6 +343,8 @@ The importance of interoperability in CI/CD systems for collaboration is multifa
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Interoperability for collaboration
 
@@ -293,6 +354,8 @@ The importance of interoperability in CI/CD systems for collaboration is multifa
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Interoperability for collaboration
 
 {{% note %}}
@@ -300,6 +363,8 @@ The importance of interoperability in CI/CD systems for collaboration is multifa
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Interoperability for collaboration
 
@@ -309,6 +374,8 @@ The importance of interoperability in CI/CD systems for collaboration is multifa
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Interoperability for collaboration
 
 {{% note %}}
@@ -316,6 +383,8 @@ The importance of interoperability in CI/CD systems for collaboration is multifa
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Interoperability for collaboration
 
@@ -325,6 +394,8 @@ The importance of interoperability in CI/CD systems for collaboration is multifa
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Interoperability for collaboration
 
 {{% note %}}
@@ -332,6 +403,8 @@ The importance of interoperability in CI/CD systems for collaboration is multifa
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### 
 
@@ -341,6 +414,8 @@ In essence, CI/CD systems interoperability acts as a bridge, connecting differen
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Interoperability: Spinnaker & Backstage
 
 {{% note %}}
@@ -348,6 +423,8 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Interoperability: Spinnaker
 
@@ -357,6 +434,8 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### 
 
 {{% note %}}
@@ -364,6 +443,8 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### 
 
@@ -373,6 +454,8 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### 
 
 {{% note %}}
@@ -380,6 +463,8 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### 
 
@@ -389,6 +474,8 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Interoperability: Backstage
 
 {{% note %}}
@@ -396,6 +483,8 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### 
 
@@ -405,6 +494,8 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### 
 
 {{% note %}}
@@ -412,6 +503,8 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### 
 
@@ -421,6 +514,8 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### 
 
 {{% note %}}
@@ -428,6 +523,8 @@ Spinnaker and Backstage both prioritize flexibility and adaptability, allowing o
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ## Challenges implementing interoperability
 
@@ -445,6 +542,8 @@ Spinnaker and Backstage both prioritize flexibility and adaptability, allowing o
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### Overcoming these hurdles
 
 {{% note %}}
@@ -454,6 +553,8 @@ Spinnaker and Backstage both prioritize flexibility and adaptability, allowing o
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### 
 
@@ -465,6 +566,8 @@ Spinnaker and Backstage both prioritize flexibility and adaptability, allowing o
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### 
 
 {{% note %}}
@@ -474,6 +577,8 @@ Spinnaker and Backstage both prioritize flexibility and adaptability, allowing o
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### 
 
@@ -485,6 +590,8 @@ Spinnaker and Backstage both prioritize flexibility and adaptability, allowing o
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### 
 
 {{% note %}}
@@ -494,6 +601,8 @@ Spinnaker and Backstage both prioritize flexibility and adaptability, allowing o
 {{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### 
 
@@ -507,12 +616,16 @@ By applying these strategies and tips, organizations can overcome the common int
 
 ---
 
+{{< slide background-image="" background-opacity="0.5" >}}
+
 ### In conclusion
 
 {{% note %}}
 The efficiencies gained by making sure you're using tools that provide CI/CD standardization as well as being interoperable between all of the systems your developers are using is at the core of what Developer Experience really is about… ruthlessly eliminating barriers (and blockers) that keep your developers from being successful.{{% /note %}}
 
 ---
+
+{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Thank you.
 

@@ -1,0 +1,41 @@
+<!-- override this partial to add content before the body tag closes -->
+
+<style>
+    /* this is for adding multi-column support to reveal-hugo */
+    /* source: https://stackoverflow.com/a/47139091 */
+    .multiCol {
+        display: table;
+        table-layout: fixed; // don't fudge depending on content
+        width: 100%;
+        text-align: center; // matter of taste, makes imho sense
+        .col {
+            display: table-cell;
+            vertical-align: middle;
+            width: 50%;
+            padding: 2% 0 2% 3%; // some vertical, and between columns
+            &:first-of-type { padding-left: 0; } // there's nothing before col1
+        }
+    }
+    /* this is for adding h5+ support to reveal-hugo */
+    .reveal h5 {
+        font-size: 0.75em;
+    }
+    .reveal h6 {
+        font-size: 0.5em;
+    }
+    .reveal h4 {
+        font-size: 1.25em;
+    }
+    /* this is for modifying default paragraph behavior */
+    .reveal p {
+        font-size: 0.5em;
+        /* display: table; */
+        text-align: center;
+        vertical-align: middle;
+    }
+    /* this is for modifying default list font size */
+    .reveal ul {
+        font-size: 0.75em;
+    }
+</style>
+ 
