@@ -1,6 +1,6 @@
 /* file location: /static/css/custom.css */
-@import "../reveal-js/dist/theme/template/mixins";
-@import "../reveal-js/dist/theme/template/settings";
+/* @import "../reveal-js/css/theme/template/mixins"; */
+/* @import "../reveal-js/css/theme/template/settings"; */
 
 /* $backgroundColor: #23252a; */
 $backgroundColor: #fff;

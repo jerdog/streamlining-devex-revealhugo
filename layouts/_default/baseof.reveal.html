@@ -20,15 +20,17 @@
   <body>
     {{ if .Param "logo.src" }}
     <style>
-      #logo {
+      .logo-btm-right {
         position: absolute;
+        z-index: 1000;
         top: {{ if .Param "logo.top"}}{{ .Param "logo.top" }}{{ else if .Param "logo.diag" }}{{ .Param "logo.diag" }}{{ else }}1%{{ end }};
         left: {{ if .Param "logo.top"}}{{ .Param "logo.left" }}{{ else if .Param "logo.diag" }}{{ .Param "logo.diag" }}{{ else }}1%{{ end }};
         width: {{ if .Param "logo.width"}}{{ .Param "logo.width" }}{{ else }}15%{{ end }};
         opacity: {{ if .Param "logo.opacity"}}{{ .Param "logo.opacity" }}{{ else }}1.0{{ end }};
       }
-      #logo-btm-left {
+      .logo-btm-left {
         position: absolute;
+        z-index: 1000;
         top: {{ if .Param "logo-btm-left.top"}}{{ .Param "logo-btm-left.top" }}{{ else if .Param "logo-btm-left.diag" }}{{ .Param "logo-btm-left.diag" }}{{ else }}1%{{ end }};
         left: {{ if .Param "logo-btm-left.top"}}{{ .Param "logo-btm-left.left" }}{{ else if .Param "logo-btm-left.diag" }}{{ .Param "logo-btm-left.diag" }}{{ else }}1%{{ end }};
         width: {{ if .Param "logo-btm-left.width"}}{{ .Param "logo-btm-left.width" }}{{ else }}15%{{ end }};
@@ -38,8 +40,8 @@
         width: 15%; */
     } */
     </style>
-    <img id="logo" src="{{ .Param "logo.src" }}" alt="{{ .Param "logo.alt" }}">
-    {{ if .Param "logo-btm-left.src"}}<img id="logo-btm-left" src="{{ .Param "logo-btm-left.src" }}" alt="{{ .Param "logo-btm-left.alt" }}">{{ end }}
+    <img class="logo-btm-right" src="{{ .Param "logo.src" }}" alt="{{ .Param "logo.alt" }}">
+    {{ if .Param "logo-btm-left.src"}}<img class="logo-btm-left" src="{{ .Param "logo-btm-left.src" }}" alt="{{ .Param "logo-btm-left.alt" }}">{{ end }}
     {{ end }}
     <div class="reveal">
       <div class="slides">

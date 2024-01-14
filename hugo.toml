@@ -30,3 +30,6 @@ theme = ["github.com/dzello/reveal-hugo"]
     left = '5%'
     width = '15%'
     #opacity = '0.5'
+  [params.appearance]
+    font = 'Open Sans'
+    font_size = 5
