@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://streamlining-devex.netlify.app/'
 languageCode = 'en-us'
 title = 'Streamlining DevEx: The Power of CI/CD Standardization and Interoperability'
 theme = ["github.com/dzello/reveal-hugo"]
