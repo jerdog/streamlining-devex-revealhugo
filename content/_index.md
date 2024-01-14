@@ -3,9 +3,10 @@ title = "Streamlining DevEx: The Power of CI/CD Standardization and Interoperabi
 outputs = ["Reveal"]
 [reveal_hugo]
 custom_css = "css/custom.css"
+
 +++
 
-## Streamlining DevEx: 
+## Streamlining DevEx
 
 ### The Power of CI/CD Standardization and Interoperability
 

@@ -33,3 +33,30 @@ theme = ["github.com/dzello/reveal-hugo"]
   [params.appearance]
     font = 'Open Sans'
     font_size = 5
+
+[reveal_hugo]
+    theme = 'night'
+    margin = 0.1
+    transition = 'slide'
+    transitionSpeed = 'fast'
+    slideNumber = false
+    controls = false
+    hash = true
+    respondToHashChanges = true
+    jumpToSlide = true
+    keyboard = true
+    overview = true
+    fragments = true
+    fragmentInURL = true
+    pause = true
+    progress = true
+    history = true
+    center = true
+    loop = false
+    help = true
+    mouseWheel = false
+    hideAddressBar = true
+    previewLinks = false
+    load_default_plugins = true
+    custom_css = true
+    custom_css_path = "css/custom.css"

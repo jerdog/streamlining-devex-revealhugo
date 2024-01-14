@@ -7,7 +7,7 @@
     -->
     {{ if .IsBlock }}<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
     {{ else }}<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" class="{{ .Attributes.class }}">{{ end }}
-    <figcaption style="font-size: .20em;">{{ .Title }}</figcaption>
+    <figcaption style="font-size: .30em;">{{ .Title }}</figcaption>
   </figure>
 {{ else }}
   <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" class="{{ .Attributes.class }}">

@@ -36,6 +36,17 @@
     /* this is for modifying default list font size */
     .reveal ul {
         font-size: 0.75em;
-    }
+    }    
 </style>
- 
+<script>
+    const headTag = document.getElementsByTagName('head')[0];
+    const styleTag = document.createElement("style");
+
+    styleTag.innerHTML = `
+    :root {
+        --r-main-font: 'Open Sans', sans-serif;
+        --r-heading-font: 'Open Sans', sans-serif;
+    }
+    `;
+    headTag.appendChild(styleTag);
+</script>
