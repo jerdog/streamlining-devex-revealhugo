@@ -1,8 +1,6 @@
 +++
 title = "Streamlining DevEx: The Power of CI/CD Standardization and Interoperability"
 outputs = ["Reveal"]
-[reveal_hugo]
-custom_css = "css/custom.css"
 
 +++
 
@@ -26,7 +24,7 @@ In the rapidly evolving landscape of modern software development, Continuous Int
 
 ---
 
-{{< slide background-image="/images/slides/2b-d316afa9-e89f-4bb6-9bca-11f73973a99f.webp" background-opacity="1" >}}
+{{< slide background-image="/images/slides/2b-d316afa9-e89f-4bb6-9bca-11f73973a99f.webp" background-opacity="0.5" >}}
 
 ## Definition of DevEX
 
@@ -36,7 +34,7 @@ Developer Experience (DX) refers to developers' overall satisfaction and efficie
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide name="CI/CD's influence" background-image="" background-opacity="0.5" >}}
 
 ## CI/CD's transformative influence on DX
 

@@ -44,6 +44,9 @@
     {{ if .Param "logo-btm-left.src"}}<img class="logo-btm-left" src="{{ .Param "logo-btm-left.src" }}" alt="{{ .Param "logo-btm-left.alt" }}">{{ end }}
     {{ end }}
     <div class="reveal">
+      <div class="menubar">
+        <ul class="menu"></ul> <!-- Keep this empty -->
+      </div>
       <div class="slides">
         {{- block "main" . -}}{{- end -}}
       </div>
