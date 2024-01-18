@@ -34,17 +34,17 @@ Developer Experience (DX) refers to developers' overall satisfaction and efficie
 
 ---
 
-{{< slide name="CI/CD's influence" background-image="" background-opacity="0.5" >}}
+{{< slide name="CI/CD's influence" background-image="/images/slides/3-ci-cd-influence.png" background-opacity="1" >}}
 
-## CI/CD's transformative influence on DX
+
 
 {{% note %}}
-CI/CD's impact on Developer Experience (DX) is profound, offering a dynamic shift in how developers collaborate, create, and deliver software. By automating integration, testing, and deployment processes, CI/CD accelerates development cycles, empowering developers with faster feedback loops, improved code quality, and the ability to iterate swiftly.
+**CI/CD's transformative influence on DX** CI/CD's impact on Developer Experience (DX) is profound, offering a dynamic shift in how developers collaborate, create, and deliver software. By automating integration, testing, and deployment processes, CI/CD accelerates development cycles, empowering developers with faster feedback loops, improved code quality, and the ability to iterate swiftly.
 {{% /note %}}
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/4-streamling-workflows.png" background-opacity="1" >}}
 
 ## 
 
@@ -54,7 +54,7 @@ By streamlining workflows, reducing friction, and providing intuitive tools, a g
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/5-standardization-consistency.png" background-opacity="1" >}}
 
 ### CI/CD Standardization
 
@@ -64,19 +64,18 @@ CI/CD standardization brings consistency to development pipelines, reducing fric
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/6-interoperability.webp" background-opacity="1" >}}
 
-### Interoperability
 
 {{% note %}}
-Concurrently, interoperability ensures seamless integration across diverse toolsets, fostering flexibility in development environments. So we'll look at how Spinnaker integrates harmoniously with tools like Backstage, bridging toolchain gaps and promoting adaptability.
+**Interoperability** Concurrently, interoperability ensures seamless integration across diverse toolsets, fostering flexibility in development environments. So we'll look at how Spinnaker integrates harmoniously with tools like Backstage, bridging toolchain gaps and promoting adaptability.
 
 Together, they both play pivotal roles in optimizing DX and improving overall productivity in the software development lifecycle.
 {{% /note %}}
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/7-implement-standardization.png" background-opacity="1" >}}
 
 ## Implementing CI/CD Standardization
 
@@ -86,9 +85,13 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/8-assessment-analysis.png" background-opacity="0.5" >}}
 
 ### Assessment and Analysis
+
+- Thoroughly assess your current CI/CD pipelines
+- Identify pain points and bottlenecks
+- Analyze specific requirements and constraints
 
 {{% note %}}
 - Begin by thoroughly assessing your current CI/CD pipelines. Understand the existing workflows, tools, and processes in use.
@@ -98,9 +101,12 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/9-define-goals.png" background-opacity="0.5" >}}
 
 ### Define Standardization Goals
+
+- Define goals and objectives, aligned with strategy and objectives
+- Determine success, like reduced deployment times / error rates
 
 {{% note %}}
 - Clearly define the goals and objectives of pipeline standardization. These goals should align with the overall development strategy and business objectives.
@@ -109,9 +115,13 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/10-picking-tools-practices.png" background-opacity="0.5" >}}
 
 ### Select Standardization Tools and Practices
+
+- Choose tools & practices aligned with organization needs, goals
+- Establish standard templates and configurations for pipelines
+- Enforce coding standards for consistency and readability
 
 {{% note %}}
 - Choose CI/CD tools and practices that align with your organization's needs and goals. Consider tools like Jenkins, GitLab CI/CD, or cloud-native solutions like AWS CodePipeline.
