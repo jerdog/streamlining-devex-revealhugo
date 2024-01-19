@@ -202,9 +202,12 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/16-scaling-adaptation.png" background-opacity="0.5" >}}
 
 ### Scaling and Adaptation
+
+- Ensure standardized templates can scale and adapt
+- Maintain flexibility to accommodate unique project requirements
 
 {{% note %}}
 - Ensure that the standardized pipeline templates can scale and adapt to different project types, sizes, and technologies.
@@ -213,9 +216,12 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/17-feedback-collaboration.png" background-opacity="0.5" >}}
 
 ### Feedback Loop and Collaboration
+
+- Foster collaborative environments where providing feedback and contributions is encouraged
+- Continuously communicate benefits of standardized pipelines and celebrate successes
 
 {{% note %}}
 - Foster a collaborative environment where developers can provide feedback and contribute to improving CI/CD standardization practices.
