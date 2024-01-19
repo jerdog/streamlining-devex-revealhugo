@@ -131,9 +131,12 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/11-docs-and-training.png" background-opacity="0.5" >}}
 
 ### Documentation and Training
+
+- Create comprehensive docs for processes, configs, best practices
+- Provide training to ensure understanding and effective use
 
 {{% note %}}
 - Create comprehensive documentation that outlines the standardized CI/CD processes, including workflows, configurations, and best practices.
@@ -142,9 +145,12 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/12-version-control.png" background-opacity="0.5" >}}
 
 ### Version Control
+
+- Store pipeline configs as code in version control systems (e.g., Git)
+- Implement branching and pull request strategies to manage changes
 
 {{% note %}}
 - Store CI/CD pipeline configurations as code in version control systems (e.g., Git). This practice ensures that configurations are versioned, traceable, and easily revertible.
@@ -153,9 +159,12 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/13-auto-testing-validate.png" background-opacity="0.5" >}}
 
 ### Automated Testing and Validation
+
+- Integrate automated testing and validation into templates
+- Implement code reviews and peer validation early in dev process
 
 {{% note %}}
 - Integrate automated testing and validation into the pipeline templates to ensure that standardized configurations produce expected results.
@@ -164,9 +173,12 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/14-monitoring-and-improvement.png" background-opacity="0.5" >}}
 
 ### Continuous Monitoring and Improvement
+
+- Detect pipeline issues and bottlenecks in real-time 
+- Establish culture of regular reviews and updating pipelines
 
 {{% note %}}
 - Set up monitoring and alerting for your CI/CD pipelines to detect issues and bottlenecks in real-time.
@@ -175,9 +187,13 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/15-governance-compliance.png" background-opacity="0.5" >}}
 
 ### Governance and Compliance
+
+- Implement governance policies to enforce pipeline standards
+- Validate compliance with industry regulations / internal standards
+- Regularly audit and assess adherence to standardized practices
 
 {{% note %}}
 - Implement governance policies to enforce pipeline standardization and compliance with industry regulations or internal standards.
