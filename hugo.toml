@@ -17,6 +17,9 @@ theme = ["github.com/dzello/reveal-hugo"]
         title = true
     [markup.goldmark.renderer]
       unsafe = true
+  # [markup.highlight]
+  #   codeFences = true
+  #   style = "monokai"
 
 [params]
   [params.logo]
