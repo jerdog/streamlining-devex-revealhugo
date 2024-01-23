@@ -234,33 +234,60 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+### Argo CD
+#### `WorkflowTemplate`
 
-### Argo
+```yaml
+apiVersion: argoproj.io/v1alpha1
+kind: WorkflowTemplate
+metadata:
+  name: workflow-template-submittable
+spec:
+  arguments:
+    parameters:
+      - name: message
+        value: hello world
+  templates:
+    - name: whalesay-template
+      inputs:
+        parameters:
+          - name: message
+      container:
+        image: docker/whalesay
+        command: [cowsay]
+        args: ["{{inputs.parameters.message}}"]
+```
+REF: https://argo-workflows.readthedocs.io/en/latest/workflow-templates/
 
 {{% note %}}
 **workflow templates (3 minutes):**
-- Organizations can define reusable workflow templates in Argo. These templates encapsulate standardized sequences of CI/CD steps, including building, testing, and deploying applications.
+- Organizations can define reusable workflow templates in Argo. 
+- These templates encapsulate standardized sequences of CI/CD steps, including building, testing, and deploying applications.
 - Developers can easily reuse these templates across projects, ensuring a consistent and standardized CI/CD process.
 {{% /note %}}
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+### Argo CD
+#### GitOps Principles
 
-### Argo
+![Argo CD architecture](/images/slides/argocd_architecture.webp)
+{.r-stretch}
+REF: https://argo-cd.readthedocs.io/en/stable/operator-manual/architecture/
 
 {{% note %}}
-**GitOps Principles (3 minutes):**
-- Argo follows GitOps principles, where CI/CD configurations and workflows are managed as code in Git repositories.
-- This approach ensures that standardized CI/CD practices are versioned, traceable, and easy to collaborate among development teams.
+ - Argo follows GitOps principles, where CI/CD configurations and workflows are managed as code in Git repositories.
+ - This approach ensures that standardized CI/CD practices are versioned, traceable, and easy to collaborate among development teams.
 {{% /note %}}
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+### Argo CD
+#### Artifact Management Support
 
-### Argo
+![Argo CD Artifact Repo support](/images/slides/argocd-artifact-repo-support.png)
+{.r-stretch}
+REF: https://argo-workflows.readthedocs.io/en/latest/configure-artifact-repository/
 
 {{% note %}}
 **Artifact Management (2 minutes):**
@@ -270,9 +297,12 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+### Flux CD
+#### Declarative model, i.e. "GitOps"
 
-### Flux
+![Flux declarative model](/images/slides/flux-declarative-config.png)
+{.r-stretch}
+REF: https://fluxcd.io/flux/concepts/
 
 {{% note %}}
 **Declarative Configuration (3 minutes):** Core Concepts | Flux
@@ -282,9 +312,12 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+### Flux CD
+#### Continuous Synchronization
 
-### Flux
+![Flux CD Continuous Sync](/images/slides/awstutorials-flux-cd-diagram.png)
+{.r-stretch}
+REF: https://www.awstutorials.cloud/post/tutorials/flux-multi-stage/
 
 {{% note %}}
 **Continuous Synchronization (2 minutes):** continuously synchronizes
@@ -296,11 +329,16 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 
 {{< slide background-image="" background-opacity="0.5" >}}
 
-### Flux
+### Flux CD
+#### Customized Deployments (via Flagger)
+
+![Customized Deployments (via Flagger)](/images/slides/flux-deployment-strategies.png)
+{.r-stretch}
+REF: https://fluxcd.io/flagger/usage/deployment-strategies/
 
 {{% note %}}
 **Policy-Based Deployments (2 minutes):**
-- Flux supports policy-based deployments, allowing organizations to define rules for when and how deployments should occur.
+- Flux supports custom deployment policies, allowing organizations to define rules for when and how deployments should occur.
 - Standardized policies ensure deployments follow best practices and adhere to organizational standards.
 {{% /note %}}
 
