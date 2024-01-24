@@ -347,7 +347,7 @@ REF: https://fluxcd.io/flagger/usage/deployment-strategies/
 {{< slide background-image="/images/slides/24-achieving-standards.png" background-opacity="0.5" >}}
 
 ### Achieving Standardized Workflows
-#### Argo and Flux
+#### Argo and Flux in Action
 
 - Encourage use of standardized pipeline templates / definitions
 - Templates standardize CI/CD stages and reusable for consistency
@@ -365,7 +365,7 @@ By leveraging tools like Argo and Flux, organizations can establish and maintain
 {{< slide background-image="/images/slides/25-achieving-standard-integration.png" background-opacity="0.5" >}}
 
 ### Achieving Standardized Workflows
-#### Argo and Flux
+#### Argo and Flux Integration
 
 - Integration with VCS & CI/CD tools ensures configs maintained and accessible to all
 
@@ -379,6 +379,10 @@ By leveraging tools like Argo and Flux, organizations can establish and maintain
 {{< slide background-image="" background-opacity="0.5" >}}
 
 ### Achieving Standardized Workflows
+#### Documentation and Training
+
+- Comprehensive docs and training essential to standardizing workflows
+- Should be applicable to the processes in use by the organization
 
 {{% note %}}
 **Documentation and Training (3 minutes):**
@@ -391,6 +395,7 @@ By leveraging tools like Argo and Flux, organizations can establish and maintain
 {{< slide background-image="" background-opacity="0.5" >}}
 
 ### Achieving Standardized Workflows
+#### Argo and Flux
 
 {{% note %}}
 **Continuous Improvement (2 minutes):**
