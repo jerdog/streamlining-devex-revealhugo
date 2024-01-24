@@ -376,7 +376,7 @@ By leveraging tools like Argo and Flux, organizations can establish and maintain
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/26-achieving-standard-docs.png" background-opacity="0.5" >}}
 
 ### Achieving Standardized Workflows
 #### Documentation and Training
@@ -392,10 +392,13 @@ By leveraging tools like Argo and Flux, organizations can establish and maintain
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/27-achieving-continuous-improvement.png" background-opacity="0.5" >}}
 
 ### Achieving Standardized Workflows
-#### Argo and Flux
+#### Continuous Improvement
+
+- Foster culture by regularly reviewing and updating workflows
+- Encourage developers to provide feedback and suggest improvements
 
 {{% note %}}
 **Continuous Improvement (2 minutes):**
