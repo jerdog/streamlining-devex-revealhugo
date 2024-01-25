@@ -2,6 +2,9 @@
 title = "Streamlining DevEx: The Power of CI/CD Standardization and Interoperability"
 outputs = ["Reveal"]
 
+[reveal_hugo]
+width = "80%"
+
 +++
 
 ## Streamlining DevEx
@@ -408,9 +411,9 @@ By leveraging tools like Argo and Flux, organizations can establish and maintain
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/28-interoperability.png" background-opacity="0.5" >}}
 
-## The role of Interoperability
+## The Role of Interoperability
 
 {{% note %}}
 Interoperability in CI/CD (Continuous Integration and Continuous Delivery) systems refers to the ability of different tools, technologies, and components within a CI/CD ecosystem to work seamlessly together. It ensures that various CI/CD pipeline parts, including source code repositories, build systems, testing frameworks, deployment platforms, and monitoring tools, can communicate, integrate, and exchange data effectively without compatibility issues or disruptions.
@@ -420,79 +423,35 @@ The importance of interoperability in CI/CD systems for collaboration is multifa
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/29-interoperability-collab.png" background-opacity="0.5" >}}
 
-### Interoperability for collaboration
+### Interoperability advantages
+#### Collaboration
+
+<p class="fragment"><strong>Flexibility and Choice:</strong> prevents vendor lock-in</p>
+<p class="fragment"><strong>Enhanced Collaboration:</strong> enables effective inter-team collaboration</p>
+<p class="fragment"><strong>Ecosystem Integration:</strong> streamlines comms, sharing, coordination</p>
+<p class="fragment"><strong>Resource Utilization:</strong> make efficient use of existing infra / tools</p>
+<p class="fragment"><strong>Scalability and Growth:</strong> allows for new tech and practices into workflows</p>
+<p class="fragment"><strong>Cross-Platform Deploys:</strong> promotes unified deployment / infra mgmt approach</p>
+<p class="fragment"><strong>Troubleshooting and Debugging:</strong> enables better incident response</p>
+
 
 {{% note %}}
-**Flexibility and Choice:** Interoperability enables development teams to choose the best-in-class tools for each CI/CD stage. It prevents vendor lock-in, allowing teams to mix and match tools based on their specific needs and preferences. Developers can use the tools they are most comfortable with while still collaborating effectively.
+**Flexibility & Choice:** Interop enables development teams sse best tool for job, preventing vendor lock-in  
+**Enhanced Collaboration:** Various tool prefs within org / company is not a blocker. Ensures smoothly interaction, facilitating collab & comms  
+**Ecosystem Integration:** Interoperable CI/CD systems integrate w/ broader ecosystems  
+**Resource Utilization:** Allows orgs to make the most efficient use of existing infra & tools. Reuse components / scripts, etc.  
+**Scalability & Growth:** As orgs scale / adopt new tech, interop ensures  CI/CD systems can adapt & expand, supporting incorporating new tools / practices => existing workflows.  
+**Cross-Platform Deployment:** In multi-cloud / hybrid environments, promtes unified approach to deployment & infra mgmt.  
+**Troubleshooting & Debugging:** When issues arise, interop enables seamless data sharing between various tools & components, for quicker issue ID, troubleshooting, and resolution.
 {{% /note %}}
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/30-interop-bridge.png" background-opacity="1" >}}
 
-### Interoperability for collaboration
 
-{{% note %}}
-**Enhanced Collaboration:** Different teams or individuals within an organization might have varying tool preferences or use different CI/CD systems. Interoperability ensures these disparate systems can interact smoothly, facilitating collaboration and communication among teams with diverse toolsets.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### Interoperability for collaboration
-
-{{% note %}}
-**Ecosystem Integration:** Interoperable CI/CD systems can integrate with broader software development ecosystems, including issue-tracking systems, collaboration platforms, and project management tools. This integration streamlines communication, information sharing, and coordination among teams and stakeholders.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### Interoperability for collaboration
-
-{{% note %}}
-**Resource Utilization:** It allows organizations to make the most efficient use of existing infrastructure and tools. Teams can reuse components or scripts, share best practices, and build upon existing integrations, reducing duplication of effort and resources.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### Interoperability for collaboration
-
-{{% note %}}
-**Scalability and Growth:** As organizations scale and adopt new technologies, interoperability ensures that CI/CD systems can adapt and expand to accommodate evolving needs. It supports the incorporation of emerging tools and practices into existing workflows.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### Interoperability for collaboration
-
-{{% note %}}
-**Cross-Platform Deployment:** In multi-cloud or hybrid environments, interoperability ensures that applications and services can be deployed consistently across different platforms and environments. This promotes a unified approach to deployment and infrastructure management.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### Interoperability for collaboration
-
-{{% note %}}
-**Troubleshooting and Debugging:** When issues arise in the CI/CD pipeline, interoperability enables seamless data sharing between various tools and components. This facilitates quicker issue identification, troubleshooting, and resolution, reducing downtime and enhancing collaboration during incident response.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### 
 
 {{% note %}}
 In essence, CI/CD systems interoperability acts as a bridge, connecting different parts of the development and delivery process, fostering collaboration, and ensuring that teams can work cohesively and efficiently, even when using diverse toolsets and technologies. This flexibility and adaptability are essential for modern software development, where agility and collaboration are paramount.
