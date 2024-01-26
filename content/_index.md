@@ -583,7 +583,7 @@ The efficiencies gained by making sure you're using tools that provide CI/CD sta
 <section>
     <div class="multiCol">
         <div class="col">
-            <h3 style="color: #04aa51;">Thank You.</h3>
+            <h2 style="color: #04aa51; text-shadow: none;">Thank You.</h2>
         </div>
         <div class="col" align="center"></div>
         <div class="col" align="left" style="font-size: .5em;">
@@ -598,3 +598,4 @@ The efficiencies gained by making sure you're using tools that provide CI/CD sta
 {{% note %}}
 
 {{% /note %}}
+ 
