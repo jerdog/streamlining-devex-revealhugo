@@ -459,9 +459,10 @@ In essence, CI/CD systems interoperability acts as a bridge, connecting differen
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/31-interop-diverse-toolsets.png" background-opacity="0.5" >}}
 
-### Interoperability: Spinnaker & Backstage
+### Interoperability
+#### Spinnaker & Backstage
 
 {{% note %}}
 Interoperability in action with Spinnaker and Backstage demonstrates how these tools effectively integrate and collaborate within a CI/CD ecosystem, while also bridging the gap between the diverse toolsets organizations, and the developers and operators tasked with implementing them, are using. This interoperability offers enhanced flexibility in CI/CD and software development.
@@ -469,99 +470,47 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/32-interop-spinnaker.png" background-opacity="0.5" >}}
 
 ### Interoperability: Spinnaker
 
+<p class="fragment"><strong>Integration with Cloud Providers:</strong> broad integration options</p>
+<p class="fragment"><strong>VCS Integrations:</strong> enable trigger deployment pipelines automation</p>
+<p class="fragment"><strong>Extensibility:</strong> useful integrations, like monitoring, incident mgmt, etc.</p>
+<p class="fragment"><strong>Artifact Management:</strong> deploy the right artifacts, enhancing reliability</p>
+<p class="fragment"><strong>Pipeline Abstraction:</strong> flexible / adaptable process as reqs evolve</p>
+
+
 {{% note %}}
-**Integration with Cloud Providers:** Spinnaker is known for its interoperability with various cloud providers, including AWS, Google Cloud, Azure, and others. It provides a consistent interface for deploying and managing applications across different cloud platforms, promoting interoperability and ensuring that developers can target multiple cloud environments seamlessly. This flexibility enables organizations to choose the cloud that best suits their needs without overhauling their CI/CD processes.
+**Integration w/ Cloud Providers:** Spinnaker is known for its integrations with various cloud providers, providing a consistent interface for deploying/managing across platforms, ensuring seamlessly targeting of environments for devs. Choose what works best.  
+**Integration w/ VCS:** Integrations with VCS enables trigger deployment pipelines directly from repos, automating release process and reducing manual intervention.  
+**Extensible Integrations:** Extensible arch supports many integrations, allowing teams to connect w/ various ext tools, like monitoring, incident mgmt, scripts, etc. Flexibility ensures Spinnaker can seamlessly fit into org's existing toolset, requirements, and workflows.  
+**Artifact Management:** Artifact repo integration, Docker Hub / Artifactory, assist in managing various artifacts, ensuring the right artifacts are consistently deployed across environments, enhancing CI/CD reliability.  
+**Pipeline Abstraction:** Abstracting deployments make the process flexible and adaptable. Devs can reuse templates, making adaptation easier as project requirements evolve. This bridge between abstraction and flexibility ensures that Spinnaker can cater to various deployment scenarios.
 {{% /note %}}
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### 
-
-{{% note %}}
-**Integration with Source Control Repositories:** Spinnaker integrates with popular source control repositories like GitHub, GitLab, and Bitbucket. This interoperability enables developers to trigger deployment pipelines directly from code repositories, automating the release process and reducing manual intervention.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### 
-
-{{% note %}}
-**Extensible Integrations:** Spinnaker's extensible architecture supports many integrations. It allows teams to connect with various external tools, including monitoring systems, notification services, and custom scripts. This flexibility ensures that Spinnaker can seamlessly fit into an organization's existing toolset, adapting to specific requirements and workflows.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### 
-
-{{% note %}}
-**Artifact Management:** Spinnaker integrates with artifact repositories, such as Docker Hub and Artifactory, for managing container images and other artifacts. This interoperability ensures that the right artifacts are consistently deployed across environments, enhancing the reliability of the CI/CD process.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### 
-
-{{% note %}}
-**Pipeline Abstraction:** Spinnaker's pipeline model abstracts the deployment process, making it flexible and adaptable. Developers can define deployment pipelines using reusable templates, making it easy to adapt and modify pipelines as project requirements evolve. This bridge between abstraction and flexibility ensures that Spinnaker can cater to various deployment scenarios.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/33-interop-backstage.png" background-opacity="0.5" >}}
 
 ### Interoperability: Backstage
 
+<p class="fragment"><strong>Integration with CI/CD Tools:</strong> </p>
+<p class="fragment"><strong>Service Catalog Integration:</strong> </p>
+<p class="fragment"><strong>Plugin Ecosystem:</strong> </p>
+<p class="fragment"><strong>Customization and Theming:</strong> </p>
+
 {{% note %}}
 **Integration with CI/CD Tools:** Backstage offers integration with various CI/CD tools, including Jenkins, CircleCI, GitHub Actions, Flux, and Argo. This interoperability allows developers to visualize and manage their CI/CD pipelines directly from the Backstage platform, providing a unified view of the entire development workflow.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### 
-
-{{% note %}}
 **Service Catalog Integration:** Backstage serves as a service catalog, helping teams manage and discover their services and applications. Its interoperability with CI/CD systems ensures that CI/CD information is integrated into the service catalog, making it easier for teams to understand the status and history of services.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### 
-
-{{% note %}}
 **Plugin Ecosystem:** Backstage's extensible architecture allows the creation of custom plugins and integrations. This interoperability capability enables organizations to connect Backstage with a wide range of internal and external tools, adapting it to their specific needs and enhancing the overall Developer Experience.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### 
-
-{{% note %}}
 **Customization and Theming:** Backstage allows organizations to customize the user interface and theme, making it adaptable to specific branding and design preferences. This flexibility ensures that Backstage can align with an organization's unique requirements and workflows, enhancing its overall appeal and usability.
 {{% /note %}}
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/34-interop-flexibility.png" background-opacity="1" >}}
 
-### 
 
 {{% note %}}
 Spinnaker and Backstage both prioritize flexibility and adaptability, allowing organizations to integrate with diverse toolsets and accommodate varying development needs. By bridging gaps between different technologies and systems, they act as central hubs that connect other parts and enhance the flexibility of CI/CD pipelines and developer workflows, ultimately promoting a more efficient and collaborative development environment.
