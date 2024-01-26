@@ -28,7 +28,7 @@ theme = ["github.com/dzello/reveal-hugo"]
     left = '80%'
     width = '15%'
   [params.logo-btm-left]
-    src = '/images/twitter-iamjerdog.png'
+    src = '/images/placeholder.jpeg'  # autogen from https://picsum.photos/
     top = '90%'
     left = '5%'
     width = '15%'

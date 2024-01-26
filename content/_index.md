@@ -518,9 +518,16 @@ Spinnaker and Backstage both prioritize flexibility and adaptability, allowing o
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/35-interop-roadblocks.jpeg" background-opacity="0.5" >}}
 
 ## Challenges implementing interoperability
+
+<p class="fragment"><strong>Diverse Toolsets</strong> </p>
+<p class="fragment"><strong>Data Format and Schema Differences</strong> </p>
+<p class="fragment"><strong>Authentication and Authorization</strong> </p>
+<p class="fragment"><strong>Versioning and Compatibility</strong> </p>
+<p class="fragment"><strong>Lack of Documentation</strong> </p>
+
 
 {{% note %}}
 - **Diverse Toolsets:** Organizations often use a mix of CI/CD tools, each with its own ecosystem and APIs, making it challenging to ensure seamless integration.
@@ -536,7 +543,7 @@ Spinnaker and Backstage both prioritize flexibility and adaptability, allowing o
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/36-interop-overcoming.jpeg" background-opacity="0.5" >}}
 
 ### Overcoming these hurdles
 
@@ -544,63 +551,18 @@ Spinnaker and Backstage both prioritize flexibility and adaptability, allowing o
 - **Unified Data Formats (Spinnaker Case Study):**
      - In Spinnaker, consider using a unified configuration format for defining deployment pipelines. This format should be documented and enforced for all teams and projects.
      - Provide tools or libraries to automatically convert between different data formats used by other CI/CD tools and Spinnaker. This ensures data consistency and compatibility.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### 
-
-{{% note %}}
    - **API Gateways (Backstage Case Study):**
      - Implement API gateways and adaptors for Backstage to communicate with other CI/CD tools. These gateways can translate data between Backstage's format and the format expected by other tools.
      - Use authentication and authorization mechanisms in the API gateways to seamlessly manage access control and permissions across different toolsets.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### 
-
-{{% note %}}
    - **Version Compatibility (Spinnaker and Backstage):**
      - Maintain version compatibility matrices for Spinnaker and Backstage, listing supported versions of other CI/CD tools and libraries.
      - Prioritize updates and ensure that integrations remain compatible with the latest versions of the tools.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### 
-
-{{% note %}}
    - **Documentation and Developer Resources (Backstage Case Study):**
      - Invest in thorough and up-to-date documentation for both Spinnaker and Backstage integration points.
      - Establish developer resources, such as forums or dedicated support channels, where teams can seek assistance and share best practices.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### 
-
-{{% note %}}
    - **Continuous Testing (Spinnaker and Backstage):**
      - Implement automated testing for integrations between Spinnaker, Backstage, and other CI/CD tools.
      - Include integration tests in your CI/CD pipeline to catch compatibility issues early and ensure ongoing reliability.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### 
-
-{{% note %}}
    - **Community Collaboration (Spinnaker and Backstage):**
      - Encourage collaboration and information sharing within the Spinnaker and Backstage communities to address interoperability challenges collectively.
      - Share success stories and case studies of how teams have successfully integrated Spinnaker and Backstage with other tools to inspire others.
@@ -610,16 +572,12 @@ By applying these strategies and tips, organizations can overcome the common int
 
 ---
 
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### In conclusion
+{{< slide background-image="/images/slides/37-efficiences.jpeg" background-opacity="1" >}}
 
 {{% note %}}
 The efficiencies gained by making sure you're using tools that provide CI/CD standardization as well as being interoperable between all of the systems your developers are using is at the core of what Developer Experience really is about… ruthlessly eliminating barriers (and blockers) that keep your developers from being successful.{{% /note %}}
 
 ---
-
-{{< slide background-image="" background-opacity="0.5" >}}
 
 ### Thank you.
 
