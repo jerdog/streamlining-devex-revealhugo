@@ -17,7 +17,7 @@ width = "80%"
 <!-- https://twitter.com/GreyNewell/status/1737295403052126213 -->
 
 ---
-{{< slide background-image="/images/slides/1-d3fd3e68-8b83-4cd0-b705-6dad4e5d7691.webp" background-opacity="1" >}}
+{{< slide background-image="/images/slides/1-d3fd3e68-8b83-4cd0-b705-6dad4e5d7691.jpeg" background-opacity="1" >}}
 
 <!-- ## Impact of CI/CD on modern software development and DX -->
 
@@ -27,7 +27,7 @@ In the rapidly evolving landscape of modern software development, Continuous Int
 
 ---
 
-{{< slide background-image="/images/slides/2b-d316afa9-e89f-4bb6-9bca-11f73973a99f.webp" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/2b-d316afa9-e89f-4bb6-9bca-11f73973a99f.jpeg" background-opacity="0.5" >}}
 
 ## Definition of DevEX
 
@@ -37,7 +37,7 @@ Developer Experience (DX) refers to developers' overall satisfaction and efficie
 
 ---
 
-{{< slide name="CI/CD's influence" background-image="/images/slides/3-ci-cd-influence.png" background-opacity="1" >}}
+{{< slide name="CI/CD's influence" background-image="/images/slides/3-ci-cd-influence.jpeg" background-opacity="1" >}}
 
 
 
@@ -47,7 +47,7 @@ Developer Experience (DX) refers to developers' overall satisfaction and efficie
 
 ---
 
-{{< slide background-image="/images/slides/4-streamling-workflows.png" background-opacity="1" >}}
+{{< slide background-image="/images/slides/4-streamling-workflows.jpeg" background-opacity="1" >}}
 
 ## 
 
@@ -57,7 +57,7 @@ By streamlining workflows, reducing friction, and providing intuitive tools, a g
 
 ---
 
-{{< slide background-image="/images/slides/5-standardization-consistency.png" background-opacity="1" >}}
+{{< slide background-image="/images/slides/5-standardization-consistency.jpeg" background-opacity="1" >}}
 
 ### CI/CD Standardization
 
@@ -67,7 +67,7 @@ CI/CD standardization brings consistency to development pipelines, reducing fric
 
 ---
 
-{{< slide background-image="/images/slides/6-interoperability.webp" background-opacity="1" >}}
+{{< slide background-image="/images/slides/6-interoperability.jpeg" background-opacity="1" >}}
 
 
 {{% note %}}
@@ -78,7 +78,7 @@ Together, they both play pivotal roles in optimizing DX and improving overall pr
 
 ---
 
-{{< slide background-image="/images/slides/7-implement-standardization.png" background-opacity="1" >}}
+{{< slide background-image="/images/slides/7-implement-standardization.jpeg" background-opacity="1" >}}
 
 ## Implementing CI/CD Standardization
 
@@ -88,7 +88,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/8-assessment-analysis.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/8-assessment-analysis.jpeg" background-opacity="0.5" >}}
 
 ### Assessment and Analysis
 
@@ -104,7 +104,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/9-define-goals.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/9-define-goals.jpeg" background-opacity="0.5" >}}
 
 ### Define Standardization Goals
 
@@ -118,7 +118,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/10-picking-tools-practices.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/10-picking-tools-practices.jpeg" background-opacity="0.5" >}}
 
 ### Select Standardization Tools and Practices
 
@@ -134,7 +134,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/11-docs-and-training.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/11-docs-and-training.jpeg" background-opacity="0.5" >}}
 
 ### Documentation and Training
 
@@ -148,7 +148,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/12-version-control.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/12-version-control.jpeg" background-opacity="0.5" >}}
 
 ### Version Control
 
@@ -162,7 +162,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/13-auto-testing-validate.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/13-auto-testing-validate.jpeg" background-opacity="0.5" >}}
 
 ### Automated Testing and Validation
 
@@ -176,7 +176,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/14-monitoring-and-improvement.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/14-monitoring-and-improvement.jpeg" background-opacity="0.5" >}}
 
 ### Continuous Monitoring and Improvement
 
@@ -190,7 +190,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/15-governance-compliance.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/15-governance-compliance.jpeg" background-opacity="0.5" >}}
 
 ### Governance and Compliance
 
@@ -205,7 +205,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/16-scaling-adaptation.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/16-scaling-adaptation.jpeg" background-opacity="0.5" >}}
 
 ### Scaling and Adaptation
 
@@ -219,7 +219,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/17-feedback-collaboration.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/17-feedback-collaboration.jpeg" background-opacity="0.5" >}}
 
 ### Feedback Loop and Collaboration
 
@@ -274,7 +274,7 @@ REF: https://argo-workflows.readthedocs.io/en/latest/workflow-templates/
 ### Argo CD
 #### GitOps Principles
 
-![Argo CD architecture](/images/slides/argocd_architecture.webp)
+![Argo CD architecture](/images/slides/argocd_architecture.jpeg)
 {.r-stretch}
 REF: https://argo-cd.readthedocs.io/en/stable/operator-manual/architecture/
 
@@ -288,7 +288,7 @@ REF: https://argo-cd.readthedocs.io/en/stable/operator-manual/architecture/
 ### Argo CD
 #### Artifact Management Support
 
-![Argo CD Artifact Repo support](/images/slides/argocd-artifact-repo-support.png)
+![Argo CD Artifact Repo support](/images/slides/argocd-artifact-repo-support.jpeg)
 {.r-stretch}
 REF: https://argo-workflows.readthedocs.io/en/latest/configure-artifact-repository/
 
@@ -303,7 +303,7 @@ REF: https://argo-workflows.readthedocs.io/en/latest/configure-artifact-reposito
 ### Flux CD
 #### Declarative model, i.e. "GitOps"
 
-![Flux declarative model](/images/slides/flux-declarative-config.png)
+![Flux declarative model](/images/slides/flux-declarative-config.jpeg)
 {.r-stretch}
 REF: https://fluxcd.io/flux/concepts/
 
@@ -318,7 +318,7 @@ REF: https://fluxcd.io/flux/concepts/
 ### Flux CD
 #### Continuous Synchronization
 
-![Flux CD Continuous Sync](/images/slides/awstutorials-flux-cd-diagram.png)
+![Flux CD Continuous Sync](/images/slides/awstutorials-flux-cd-diagram.jpeg)
 {.r-stretch}
 REF: https://www.awstutorials.cloud/post/tutorials/flux-multi-stage/
 
@@ -335,7 +335,7 @@ REF: https://www.awstutorials.cloud/post/tutorials/flux-multi-stage/
 ### Flux CD
 #### Customized Deployments (via Flagger)
 
-![Customized Deployments (via Flagger)](/images/slides/flux-deployment-strategies.png)
+![Customized Deployments (via Flagger)](/images/slides/flux-deployment-strategies.jpeg)
 {.r-stretch}
 REF: https://fluxcd.io/flagger/usage/deployment-strategies/
 
@@ -347,7 +347,7 @@ REF: https://fluxcd.io/flagger/usage/deployment-strategies/
 
 ---
 
-{{< slide background-image="/images/slides/24-achieving-standards.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/24-achieving-standards.jpeg" background-opacity="0.5" >}}
 
 ### Achieving Standardized Workflows
 #### Argo and Flux in Action
@@ -365,7 +365,7 @@ By leveraging tools like Argo and Flux, organizations can establish and maintain
 
 ---
 
-{{< slide background-image="/images/slides/25-achieving-standard-integration.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/25-achieving-standard-integration.jpeg" background-opacity="0.5" >}}
 
 ### Achieving Standardized Workflows
 #### Argo and Flux Integration
@@ -379,7 +379,7 @@ By leveraging tools like Argo and Flux, organizations can establish and maintain
 
 ---
 
-{{< slide background-image="/images/slides/26-achieving-standard-docs.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/26-achieving-standard-docs.jpeg" background-opacity="0.5" >}}
 
 ### Achieving Standardized Workflows
 #### Documentation and Training
@@ -395,7 +395,7 @@ By leveraging tools like Argo and Flux, organizations can establish and maintain
 
 ---
 
-{{< slide background-image="/images/slides/27-achieving-continuous-improvement.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/27-achieving-continuous-improvement.jpeg" background-opacity="0.5" >}}
 
 ### Achieving Standardized Workflows
 #### Continuous Improvement
@@ -411,7 +411,7 @@ By leveraging tools like Argo and Flux, organizations can establish and maintain
 
 ---
 
-{{< slide background-image="/images/slides/28-interoperability.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/28-interoperability.jpeg" background-opacity="0.5" >}}
 
 ## The Role of Interoperability
 
@@ -423,7 +423,7 @@ The importance of interoperability in CI/CD systems for collaboration is multifa
 
 ---
 
-{{< slide background-image="/images/slides/29-interoperability-collab.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/29-interoperability-collab.jpeg" background-opacity="0.5" >}}
 
 ### Interoperability advantages
 #### Collaboration
@@ -449,7 +449,7 @@ The importance of interoperability in CI/CD systems for collaboration is multifa
 
 ---
 
-{{< slide background-image="/images/slides/30-interop-bridge.png" background-opacity="1" >}}
+{{< slide background-image="/images/slides/30-interop-bridge.jpeg" background-opacity="1" >}}
 
 
 
@@ -459,7 +459,7 @@ In essence, CI/CD systems interoperability acts as a bridge, connecting differen
 
 ---
 
-{{< slide background-image="/images/slides/31-interop-diverse-toolsets.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/31-interop-diverse-toolsets.jpeg" background-opacity="0.5" >}}
 
 ### Interoperability
 #### Spinnaker & Backstage
@@ -470,7 +470,7 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 
 ---
 
-{{< slide background-image="/images/slides/32-interop-spinnaker.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/32-interop-spinnaker.jpeg" background-opacity="0.5" >}}
 
 ### Interoperability: Spinnaker
 
@@ -491,7 +491,7 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 
 ---
 
-{{< slide background-image="/images/slides/33-interop-backstage.png" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/33-interop-backstage.jpeg" background-opacity="0.5" >}}
 
 ### Interoperability: Backstage
 
@@ -509,7 +509,7 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 
 ---
 
-{{< slide background-image="/images/slides/34-interop-flexibility.png" background-opacity="1" >}}
+{{< slide background-image="/images/slides/34-interop-flexibility.jpeg" background-opacity="1" >}}
 
 
 {{% note %}}
