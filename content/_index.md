@@ -579,7 +579,21 @@ The efficiencies gained by making sure you're using tools that provide CI/CD sta
 
 ---
 
-### Thank you.
+{{< slide id="end" >}}
+<section>
+    <div class="multiCol">
+        <div class="col">
+            <h3 style="color: #04aa51;">Thank You.</h3>
+        </div>
+        <div class="col" align="center"></div>
+        <div class="col" align="left" style="font-size: .5em;">
+            <img src="/images/linkedin.png" height="50px" style="vertical-align: middle; margin: 10px;">/in/jeremymeiss<br />
+            <img src="/images/twitter.png" height="50px" style="vertical-align: middle; margin: 10px;">@IAmJerdog<br />
+            <img src="/images/devto.png" height="50px" style="vertical-align: middle; margin: 10px;">@jerdog<br />
+            <img src="/images/mastodon.png" height="50px" style="vertical-align: middle; margin: 10px;">@jerdog@hachyderm.io
+        </div>
+    </div>
+</section>
 
 {{% note %}}
 
