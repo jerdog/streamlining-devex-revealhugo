@@ -90,7 +90,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 {{< slide background-image="/images/slides/8-assessment-analysis.jpeg" background-opacity="0.5" >}}
 
-### Assessment and Analysis
+### Implementing CI/CD Standardization
+#### Assessment and Analysis
 
 - Thoroughly assess your current CI/CD pipelines
 - Identify pain points and bottlenecks
@@ -106,7 +107,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 {{< slide background-image="/images/slides/9-define-goals.jpeg" background-opacity="0.5" >}}
 
-### Define Standardization Goals
+### Implementing CI/CD Standardization
+#### Define Standardization Goals
 
 - Define goals and objectives, aligned with strategy and objectives
 - Determine success, like reduced deployment times / error rates
@@ -120,7 +122,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 {{< slide background-image="/images/slides/10-picking-tools-practices.jpeg" background-opacity="0.5" >}}
 
-### Select Standardization Tools and Practices
+### Implementing CI/CD Standardization
+#### Select Standardization Tools and Practices
 
 - Choose tools & practices aligned with organization needs, goals
 - Establish standard templates and configurations for pipelines
@@ -136,7 +139,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 {{< slide background-image="/images/slides/11-docs-and-training.jpeg" background-opacity="0.5" >}}
 
-### Documentation and Training
+### Implementing CI/CD Standardization
+#### Documentation and Training
 
 - Create comprehensive docs for processes, configs, best practices
 - Provide training to ensure understanding and effective use
@@ -150,7 +154,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 {{< slide background-image="/images/slides/12-version-control.jpeg" background-opacity="0.5" >}}
 
-### Version Control
+### Implementing CI/CD Standardization
+#### Version Control
 
 - Store pipeline configs as code in version control systems (e.g., Git)
 - Implement branching and pull request strategies to manage changes
@@ -164,7 +169,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 {{< slide background-image="/images/slides/13-auto-testing-validate.jpeg" background-opacity="0.5" >}}
 
-### Automated Testing and Validation
+### Implementing CI/CD Standardization
+#### Automated Testing and Validation
 
 - Integrate automated testing and validation into templates
 - Implement code reviews and peer validation early in dev process
@@ -178,7 +184,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 {{< slide background-image="/images/slides/14-monitoring-and-improvement.jpeg" background-opacity="0.5" >}}
 
-### Continuous Monitoring and Improvement
+### Implementing CI/CD Standardization
+#### Continuous Monitoring and Improvement
 
 - Detect pipeline issues and bottlenecks in real-time 
 - Establish culture of regular reviews and updating pipelines
@@ -192,7 +199,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 {{< slide background-image="/images/slides/15-governance-compliance.jpeg" background-opacity="0.5" >}}
 
-### Governance and Compliance
+### Implementing CI/CD Standardization
+#### Governance and Compliance
 
 - Implement governance policies to enforce pipeline standards
 - Validate compliance with industry regulations / internal standards
@@ -207,7 +215,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 {{< slide background-image="/images/slides/16-scaling-adaptation.jpeg" background-opacity="0.5" >}}
 
-### Scaling and Adaptation
+### Implementing CI/CD Standardization
+#### Scaling and Adaptation
 
 - Ensure standardized templates can scale and adapt
 - Maintain flexibility to accommodate unique project requirements
@@ -221,7 +230,8 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 {{< slide background-image="/images/slides/17-feedback-collaboration.jpeg" background-opacity="0.5" >}}
 
-### Feedback Loop and Collaboration
+### Implementing CI/CD Standardization
+#### Feedback Loop and Collaboration
 
 - Foster collaborative environments where providing feedback and contributions is encouraged
 - Continuously communicate benefits of standardized pipelines and celebrate successes
@@ -237,112 +247,32 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 
 ---
 
-### Argo CD
-#### `WorkflowTemplate`
+### CI/CD Pipeline Standardization
+#### Argo
 
-```yaml
-apiVersion: argoproj.io/v1alpha1
-kind: WorkflowTemplate
-metadata:
-  name: workflow-template-submittable
-spec:
-  arguments:
-    parameters:
-      - name: message
-        value: hello world
-  templates:
-    - name: whalesay-template
-      inputs:
-        parameters:
-          - name: message
-      container:
-        image: docker/whalesay
-        command: [cowsay]
-        args: ["{{inputs.parameters.message}}"]
-```
-REF: https://argo-workflows.readthedocs.io/en/latest/workflow-templates/
+<p class="fragment"><strong>Reusable workflows:</strong> orgs define reusable workflow templates</p>
+<p class="fragment"><strong>GitOps principles:</strong> CI/CD configs & workflows managed as code</p>
+<p class="fragment"><strong>Artifact Management Support:</strong> artifacts managed & stored for consistency</p>
 
 {{% note %}}
-**workflow templates (3 minutes):**
-- Organizations can define reusable workflow templates in Argo. 
-- These templates encapsulate standardized sequences of CI/CD steps, including building, testing, and deploying applications.
-- Developers can easily reuse these templates across projects, ensuring a consistent and standardized CI/CD process.
+**Reusable workflows:** Orgs can define reusable workflow templates, setting up standard sequences for CI/CD (build, test, deploy), so devs can reuse across projects for consistent & standardized CI/CD processes.  
+**GitOps principles:** Argo follows GitOps principles, where CI/CD configs and workflows are managed as code in Git repos, ensuring versioned, traceable, and easy processes to collab amongst dev teams.  
+**Artifact Management:** Argo supports managing & storing artifacts, such as Docker images, as part of the CI/CD process, ensuring the right artifacts are consistently deployed across environments & able to be used as inputs to subsequent steps.
 {{% /note %}}
 
 ---
 
-### Argo CD
-#### GitOps Principles
+### CI/CD Pipeline Standardization
+#### Flux
 
-![Argo CD architecture](/images/slides/argocd_architecture.jpeg)
-{.r-stretch}
-REF: https://argo-cd.readthedocs.io/en/stable/operator-manual/architecture/
-
-{{% note %}}
- - Argo follows GitOps principles, where CI/CD configurations and workflows are managed as code in Git repositories.
- - This approach ensures that standardized CI/CD practices are versioned, traceable, and easy to collaborate among development teams.
-{{% /note %}}
-
----
-
-### Argo CD
-#### Artifact Management Support
-
-![Argo CD Artifact Repo support](/images/slides/argocd-artifact-repo-support.jpeg)
-{.r-stretch}
-REF: https://argo-workflows.readthedocs.io/en/latest/configure-artifact-repository/
+<p class="fragment"><strong>Declarative config model, i.e. "GitOps":</strong> desired system state defined in code</p>
+<p class="fragment"><strong>Continuous Synchronization:</strong> desired state with actual state in K8s clusters</p>
+<p class="fragment"><strong>Customized Deployments (via Flagger)</strong> feature-flagged deployments</p>
 
 {{% note %}}
-**Artifact Management (2 minutes):**
-- Argo provides support for managing and storing artifacts, such as Docker images, as part of the CI/CD process.
-- Standardized artifact management practices ensure that the right artifacts are consistently deployed across environments, and able to be used as inputs to subsequent steps.
-{{% /note %}}
-
----
-
-### Flux CD
-#### Declarative model, i.e. "GitOps"
-
-![Flux declarative model](/images/slides/flux-declarative-config.jpeg)
-{.r-stretch}
-REF: https://fluxcd.io/flux/concepts/
-
-{{% note %}}
-**Declarative Configuration (3 minutes):** Core Concepts | Flux
-- Flux operates based on a declarative configuration model, where the system's desired state is defined as code.
-- This declarative approach enables organizations to define and enforce standardized CI/CD practices as code, ensuring project consistency.
-{{% /note %}}
-
----
-
-### Flux CD
-#### Continuous Synchronization
-
-![Flux CD Continuous Sync](/images/slides/awstutorials-flux-cd-diagram.jpeg)
-{.r-stretch}
-REF: https://www.awstutorials.cloud/post/tutorials/flux-multi-stage/
-
-{{% note %}}
-**Continuous Synchronization (2 minutes):** continuously synchronizes
-- As a core principle of GitOps, Flux continuously synchronizes the desired state in Git repositories with the actual state of the Kubernetes cluster.
-- This automation ensures that standardized configurations and deployments are consistently applied, regardless of changes in the cluster.
-{{% /note %}}
-
----
-
-{{< slide background-image="" background-opacity="0.5" >}}
-
-### Flux CD
-#### Customized Deployments (via Flagger)
-
-![Customized Deployments (via Flagger)](/images/slides/flux-deployment-strategies.jpeg)
-{.r-stretch}
-REF: https://fluxcd.io/flagger/usage/deployment-strategies/
-
-{{% note %}}
-**Policy-Based Deployments (2 minutes):**
-- Flux supports custom deployment policies, allowing organizations to define rules for when and how deployments should occur.
-- Standardized policies ensure deployments follow best practices and adhere to organizational standards.
+**Declarative Configuration:** operates on a declarative config model, where system's desired state is defined as code, enabling orgs to define & enforce standardized CI/CD practices in a VCS, ensuring trackable project consistency.  
+**Continuous Synchronization:** continuously synchronize desired state in Git repos w/ the actual state of the K8s cluster, ensuring standardied configs & deployments are consistent across environments, regardless of changes.  
+**Policy-Based Deployments:** supports custom deployment policies, allowing orgs to define rules for when & how deployments should occur, ensuring better practices & adhering to org standards.
 {{% /note %}}
 
 ---
@@ -350,62 +280,31 @@ REF: https://fluxcd.io/flagger/usage/deployment-strategies/
 {{< slide background-image="/images/slides/24-achieving-standards.jpeg" background-opacity="0.5" >}}
 
 ### Achieving Standardized Workflows
-#### Argo and Flux in Action
 
-- Encourage use of standardized pipeline templates / definitions
-- Templates standardize CI/CD stages and reusable for consistency
+<p class="fragment"><strong>Argo & Flux:</strong> encourage standardized templates/definitions</p>
+<p class="fragment"><strong>Argo and Flux Integrations:</strong> </p>
+<p class="fragment"><strong>Documentation and Training:</strong> </p>
+<p class="fragment"><strong>Continuous Improvement:</strong> </p>
+
 
 {{% note %}}
-By leveraging tools like Argo and Flux, organizations can establish and maintain standardized workflows, ensuring that CI/CD practices are consistent, repeatable, and adaptable to a variety of projects. This promotes a streamlined and efficient development process, enhancing Developer Experience and software delivery.
-
 **Templates and Definitions (3 minutes):**
-   - Organizations using both Argo and Flux can establish standardized pipeline templates and definitions.
-   - These templates can specify standard CI/CD stages, such as building, testing, and deploying, and can be reused across projects, ensuring consistency.
-{{% /note %}}
-
----
-
-{{< slide background-image="/images/slides/25-achieving-standard-integration.jpeg" background-opacity="0.5" >}}
-
-### Achieving Standardized Workflows
-#### Argo and Flux Integration
-
-- Integration with VCS & CI/CD tools ensures configs maintained and accessible to all
-
-{{% note %}}
+- Organizations using both Argo and Flux can establish standardized pipeline templates and definitions.
+- These templates can specify standard CI/CD stages, such as building, testing, and deploying, and can be reused across projects, ensuring consistency.
+- Encourage use of standardized pipeline templates / definitions
+- Templates standardize CI/CD stages and reusable for consistencyBy leveraging tools like Argo and Flux, organizations can establish and maintain standardized workflows, ensuring that CI/CD practices are consistent, repeatable, and adaptable to a variety of projects. This promotes a streamlined and efficient development process, enhancing Developer Experience and software delivery.
 **Integration (2 minutes):**
+- Integration with VCS & CI/CD tools ensures configs maintained and accessible to all
 - Integrating Argo and Flux with version control systems and other CI/CD tools ensures that standardized configurations are maintained as code and are accessible to development teams.
-{{% /note %}}
-
----
-
-{{< slide background-image="/images/slides/26-achieving-standard-docs.jpeg" background-opacity="0.5" >}}
-
-### Achieving Standardized Workflows
-#### Documentation and Training
-
+**Documentation and Training (3 minutes):**
 - Comprehensive docs and training essential to standardizing workflows
 - Should be applicable to the processes in use by the organization
-
-{{% note %}}
-**Documentation and Training (3 minutes):**
-   - Organizations should provide comprehensive documentation and training on how to use standardized workflows with Argo and Flux.
-   - Training sessions can help developers understand how to apply standardized practices effectively.
-{{% /note %}}
-
----
-
-{{< slide background-image="/images/slides/27-achieving-continuous-improvement.jpeg" background-opacity="0.5" >}}
-
-### Achieving Standardized Workflows
-#### Continuous Improvement
-
+- Organizations should provide comprehensive documentation and training on how to use standardized workflows with Argo and Flux.
+- Training sessions can help developers understand how to apply standardized practices effectively.
+**Continuous Improvement (2 minutes):**
 - Foster culture by regularly reviewing and updating workflows
 - Encourage developers to provide feedback and suggest improvements
-
-{{% note %}}
-**Continuous Improvement (2 minutes):**
-   - Foster a culture of continuous improvement by regularly reviewing and updating standardized workflows.
+-    - Foster a culture of continuous improvement by regularly reviewing and updating standardized workflows.
    - Encourage developers to provide feedback and suggest improvements to ensure standardized practices remain relevant and practical.
 {{% /note %}}
 
