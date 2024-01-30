@@ -44,7 +44,7 @@ Not so sure about heresy, seems kinda harsh, but here goes! In the rapidly evolv
 {.r-stretch}
 
 {{% note %}}
-...Continuous Integration and Continuous Delivery (CI/CD) stand as transformative pillars, reshaping how software is delivered and the very experience of those crafting it.  
+...illustrated here by the CNCF landscape (as of January 29, 2024) Continuous Integration and Continuous Deployment (CI/CD) stand as transformative pillars, reshaping how software is delivered and the very experience of those crafting it.  
 {{% /note %}}
 
 ---
@@ -99,12 +99,12 @@ Together, they both play pivotal roles in optimizing DevEx and improving overall
 
 ---
 
-{{< slide background-image="/images/slides/7-implement-standardization.jpeg" background-opacity="1" >}}
+{{< slide background-image="/images/slides/7-implement-standardization.jpeg" background-opacity="0.5" >}}
 
 ## Implementing CI/CD Standardization
 
 {{% note %}}
-CI/CD Standardization aims to minimize variability, reduce errors, and foster an environment where developers can efficiently collaborate. Standardization can be achieved by defining clear, repeatable code integration, testing, and deployment processes, ensuring a smooth development journey. Implementing CI/CD pipeline standardization is crucial for streamlining the development process and enhancing Developer Experience (DevEx). Here are the steps and best practices for achieving pipeline standardization:
+CI/CD Standardization aims to minimize variability, reduce errors, and foster an environment where developers can efficiently collaborate. Standardizing CI/CD can be achieved by defining clear, repeatable code integration, testing, and deployment processes, ensuring a smooth development journey. Implementing CI/CD pipeline standardization is crucial for streamlining the development process and enhancing Developer Experience (DevEx). Here are the steps and best practices for achieving pipeline standardization:
 {{% /note %}}
 
 ---
@@ -307,30 +307,17 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 ### Achieving Standardized Workflows
 
 <p class="fragment"><strong>Argo & Flux:</strong> encourage standardized templates/definitions</p>
-<p class="fragment"><strong>Argo and Flux Integrations:</strong> </p>
-<p class="fragment"><strong>Documentation and Training:</strong> </p>
-<p class="fragment"><strong>Continuous Improvement:</strong> </p>
+<p class="fragment"><strong>VCS & CI/CD Integrations:</strong> ensures configs maintained and accessible to all</p>
+<p class="fragment"><strong>Documentation & Training:</strong> responsibility of org for devs understanding process</p>
+<p class="fragment"><strong>Continuous Improvement:</strong> foster continual improvement & gathering feedback</p>
 
 
 {{% note %}}
-**Templates and Definitions (3 minutes):**
-- Organizations using both Argo and Flux can establish standardized pipeline templates and definitions.
-- These templates can specify standard CI/CD stages, such as building, testing, and deploying, and can be reused across projects, ensuring consistency.
-- Encourage use of standardized pipeline templates / definitions
-- Templates standardize CI/CD stages and reusable for consistencyBy leveraging tools like Argo and Flux, organizations can establish and maintain standardized workflows, ensuring that CI/CD practices are consistent, repeatable, and adaptable to a variety of projects. This promotes a streamlined and efficient development process, enhancing Developer Experience and software delivery.
-**Integration (2 minutes):**
-- Integration with VCS & CI/CD tools ensures configs maintained and accessible to all
-- Integrating Argo and Flux with version control systems and other CI/CD tools ensures that standardized configurations are maintained as code and are accessible to development teams.
-**Documentation and Training (3 minutes):**
-- Comprehensive docs and training essential to standardizing workflows
-- Should be applicable to the processes in use by the organization
-- Organizations should provide comprehensive documentation and training on how to use standardized workflows with Argo and Flux.
-- Training sessions can help developers understand how to apply standardized practices effectively.
-**Continuous Improvement (2 minutes):**
-- Foster culture by regularly reviewing and updating workflows
-- Encourage developers to provide feedback and suggest improvements
--    - Foster a culture of continuous improvement by regularly reviewing and updating standardized workflows.
-   - Encourage developers to provide feedback and suggest improvements to ensure standardized practices remain relevant and practical.
+So in summary, achieving standardized workflows comes down to the following:
+**Templates & Definitions:** With the standardized pipeline templates and definitions, orgs establish the baseline for consistency, which promotes a streamlined and efficient dev process.  
+**Integrations:** Fully integrating with VCS & CI/CD tooling ensures configs maintained and accessible to all  
+**Documentation and Training:** docs and training so essential to standardization. Orgs are responsible for making sure devs understand how to use the workflows effectively.  
+**Continuous Improvement:** Foster culture by regularly reviewing and updating workflows, encouraging feedback and suggesting improvements. This helps ensure that standardized practices remain relevant and practical.
 {{% /note %}}
 
 ---
