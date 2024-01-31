@@ -11,6 +11,10 @@ width = "80%"
 
 ### The Power of CI/CD Standardization and Interoperability
 
+{{% note %}}
+As a quick note, I used ChatGPT + DALL-E to generate the images in this presentation, which took entirely too much time because the effort to train the model for what I was trying to get was tedious and time consuming. 
+{{% /note %}}
+
 ---
 
 {{< slide id="bio" transition="zoom" transition-speed="fast" >}}
@@ -40,8 +44,9 @@ Not so sure about heresy, seems kinda harsh, but here goes! In the rapidly evolv
 
 ---
 
-![alt text](/images/slides/cncf-landscape.jpeg)
+![CNCF Landscape, 29-Jan-2024](/images/slides/cncf-landscape.jpeg)
 {.r-stretch}
+REF: CNCF Landscape, 29-Jan-2024
 
 {{% note %}}
 ...illustrated here by the CNCF landscape (as of January 29, 2024) Continuous Integration and Continuous Deployment (CI/CD) stand as transformative pillars, reshaping how software is delivered and the very experience of those crafting it.  
@@ -49,11 +54,22 @@ Not so sure about heresy, seems kinda harsh, but here goes! In the rapidly evolv
 
 ---
 
-{{< slide background-image="/images/slides/2b-d316afa9-e89f-4bb6-9bca-11f73973a99f.jpeg" background-opacity="0.5" >}}
+## Developer Experience
 
-## Definition of DevEx
+![DevEx poll from Twitter and LinkedIn](/images/slides/devex-poll.jpg)
+
+52% of respondents said "DevEx" (34% "DX")
+
+---
+
+{{< slide background-image="/images/slides/2b-d316afa9-e89f-4bb6-9bca-11f73973a99f.jpeg" background-opacity="0.3" >}}
+
+## Developer Experience (DevEx)...
+>#### ...encompasses the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
 
 {{% note %}}
+Developer Experience (DevEx) encompasses the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors. 
+
 Developer Experience (DevEX) refers to developers' overall satisfaction and efficiency while working on software projects. It encompasses the tools, processes, and environments that shape developers' interactions with code, infrastructure, and each other. A positive DevEx is crucial for enhancing productivity as it directly influences how quickly and effectively developers can build, test, and deploy software.
 {{% /note %}}
 
@@ -78,7 +94,7 @@ By streamlining workflows, reducing friction, and providing intuitive tools, a g
 
 ---
 
-{{< slide background-image="/images/slides/5-standardization-consistency.jpeg" background-opacity="1" >}}
+{{< slide background-image="/images/slides/5-standardization-consistency.jpeg" background-opacity=".3" >}}
 
 ### CI/CD Standardization
 
@@ -88,18 +104,19 @@ CI/CD standardization brings consistency to development pipelines, reducing fric
 
 ---
 
-{{< slide background-image="/images/slides/6-interoperability.jpeg" background-opacity="1" >}}
+{{< slide background-image="/images/slides/6-interoperability.jpeg" background-opacity=".3" >}}
 
+### CI/CD Interoperability
 
 {{% note %}}
-**Interoperability** Concurrently, interoperability ensures seamless integration across diverse toolsets, fostering flexibility in development environments. So we'll look at how Spinnaker integrates harmoniously with tools like Backstage, bridging toolchain gaps and promoting adaptability.
+Concurrently, interoperability ensures seamless integration across diverse toolsets, fostering flexibility in development environments. So we'll look at how Spinnaker integrates harmoniously with tools like Backstage, bridging toolchain gaps and promoting adaptability.
 
 Together, they both play pivotal roles in optimizing DevEx and improving overall productivity in the software development lifecycle.
 {{% /note %}}
 
 ---
 
-{{< slide background-image="/images/slides/7-implement-standardization.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/7-implement-standardization.jpeg" background-opacity="0.4" >}}
 
 ## Implementing CI/CD Standardization
 
@@ -109,7 +126,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/8-assessment-analysis.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/8-assessment-analysis.jpeg" background-opacity="0.3" >}}
 
 ### Implementing CI/CD Standardization
 #### Assessment and Analysis
@@ -126,12 +143,12 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/9-define-goals.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/9-define-goals.jpeg" background-opacity="0.3" >}}
 
 ### Implementing CI/CD Standardization
 #### Define Standardization Goals
 
-- Define goals and objectives, aligned with strategy and objectives
+- Define goals and objectives, align with strategy and objectives
 - Determine success, like reduced deployment times / error rates
 
 {{% note %}}
@@ -141,7 +158,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/10-picking-tools-practices.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/10-picking-tools-practices.jpeg" background-opacity="0.4" >}}
 
 ### Implementing CI/CD Standardization
 #### Select Standardization Tools and Practices
@@ -158,7 +175,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/11-docs-and-training.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/11-docs-and-training.jpeg" background-opacity="0.4" >}}
 
 ### Implementing CI/CD Standardization
 #### Documentation and Training
@@ -173,13 +190,13 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/12-version-control.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/12-version-control.jpeg" background-opacity="0.3" >}}
 
 ### Implementing CI/CD Standardization
 #### Version Control
 
-- Store pipeline configs as code in version control systems (e.g., Git)
-- Implement branching and pull request strategies to manage changes
+- Store pipeline configs as code in version control systems
+- Implement branching and pull request strategies
 
 {{% note %}}
 - Store CI/CD pipeline configurations as code in version control systems (e.g., Git). This practice ensures that configurations are versioned, traceable, and easily revertible.
@@ -188,7 +205,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/13-auto-testing-validate.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/13-auto-testing-validate.jpeg" background-opacity="0.4" >}}
 
 ### Implementing CI/CD Standardization
 #### Automated Testing and Validation
@@ -203,7 +220,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/14-monitoring-and-improvement.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/14-monitoring-and-improvement.jpeg" background-opacity="0.4" >}}
 
 ### Implementing CI/CD Standardization
 #### Continuous Monitoring and Improvement
@@ -218,7 +235,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/15-governance-compliance.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/15-governance-compliance.jpeg" background-opacity="0.3" >}}
 
 ### Implementing CI/CD Standardization
 #### Governance and Compliance
@@ -234,7 +251,7 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/16-scaling-adaptation.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/16-scaling-adaptation.jpeg" background-opacity="0.3" >}}
 
 ### Implementing CI/CD Standardization
 #### Scaling and Adaptation
@@ -249,13 +266,13 @@ CI/CD Standardization aims to minimize variability, reduce errors, and foster an
 
 ---
 
-{{< slide background-image="/images/slides/17-feedback-collaboration.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/17-feedback-collaboration.jpeg" background-opacity="0.3" >}}
 
 ### Implementing CI/CD Standardization
 #### Feedback Loop and Collaboration
 
-- Foster collaborative environments where providing feedback and contributions is encouraged
-- Continuously communicate benefits of standardized pipelines and celebrate successes
+- Foster collaborative environments where feedback & contributions encouraged
+- Continuously communicate benefits of standardized pipelines & celebrate successes
 
 {{% note %}}
 - Foster a collaborative environment where developers can provide feedback and contribute to improving CI/CD standardization practices.
@@ -268,7 +285,7 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 
 ---
 
-{{< slide background-image="/images/slides/18-argo-pipeline-standardization.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/18-argo-pipeline-standardization.jpeg" background-opacity="0.3" >}}
 
 ### CI/CD Pipeline Standardization
 #### Argo
@@ -285,7 +302,7 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 
 ---
 
-{{< slide background-image="/images/slides/19-flux-pipeline-standardization.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/19-flux-pipeline-standardization.jpeg" background-opacity="0.3" >}}
 
 ### CI/CD Pipeline Standardization
 #### Flux
@@ -302,7 +319,7 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 
 ---
 
-{{< slide background-image="/images/slides/24-achieving-standards.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/24-achieving-standards.jpeg" background-opacity="0.3" >}}
 
 ### Achieving Standardized Workflows
 
@@ -314,7 +331,7 @@ Let's look at how open source tooling Argo and Flux implement CI/CD pipeline sta
 
 {{% note %}}
 So in summary, achieving standardized workflows comes down to the following:
-**Templates & Definitions:** With the standardized pipeline templates and definitions, orgs establish the baseline for consistency, which promotes a streamlined and efficient dev process.  
+**Templates & Definitions:** With the standardized pipeline templates and definitions that Flux and Argo employ, orgs establish the baseline for consistency, which promotes a streamlined and efficient dev process.  
 **Integrations:** Fully integrating with VCS & CI/CD tooling ensures configs maintained and accessible to all  
 **Documentation and Training:** docs and training so essential to standardization. Orgs are responsible for making sure devs understand how to use the workflows effectively.  
 **Continuous Improvement:** Foster culture by regularly reviewing and updating workflows, encouraging feedback and suggesting improvements. This helps ensure that standardized practices remain relevant and practical.
@@ -322,7 +339,7 @@ So in summary, achieving standardized workflows comes down to the following:
 
 ---
 
-{{< slide background-image="/images/slides/28-interoperability.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/28-interoperability.jpeg" background-opacity="0.4" >}}
 
 ## The Role of Interoperability
 
@@ -334,7 +351,7 @@ The importance of interoperability in CI/CD systems for collaboration is multifa
 
 ---
 
-{{< slide background-image="/images/slides/29-interoperability-collab.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/29-interoperability-collab.jpeg" background-opacity="0.3" >}}
 
 ### Interoperability advantages
 #### Collaboration
@@ -349,7 +366,7 @@ The importance of interoperability in CI/CD systems for collaboration is multifa
 
 
 {{% note %}}
-**Flexibility & Choice:** Interop enables development teams sse best tool for job, preventing vendor lock-in  
+**Flexibility & Choice:** Interop enables development teams use best tool for job, preventing vendor lock-in  
 **Enhanced Collaboration:** Various tool prefs within org / company is not a blocker. Ensures smoothly interaction, facilitating collab & comms  
 **Ecosystem Integration:** Interoperable CI/CD systems integrate w/ broader ecosystems  
 **Resource Utilization:** Allows orgs to make the most efficient use of existing infra & tools. Reuse components / scripts, etc.  
@@ -370,7 +387,7 @@ In essence, CI/CD systems interoperability acts as a bridge, connecting differen
 
 ---
 
-{{< slide background-image="/images/slides/31-interop-diverse-toolsets.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/31-interop-diverse-toolsets.jpeg" background-opacity="0.4" >}}
 
 ### Interoperability
 #### Spinnaker & Backstage
@@ -381,7 +398,7 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 
 ---
 
-{{< slide background-image="/images/slides/32-interop-spinnaker.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/32-interop-spinnaker.jpeg" background-opacity="0.3" >}}
 
 ### Interoperability: Spinnaker
 
@@ -402,7 +419,7 @@ Interoperability in action with Spinnaker and Backstage demonstrates how these t
 
 ---
 
-{{< slide background-image="/images/slides/33-interop-backstage.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/33-interop-backstage.jpeg" background-opacity="0.4" >}}
 
 ### Interoperability: Backstage
 
@@ -429,7 +446,7 @@ Spinnaker and Backstage both prioritize flexibility and adaptability, allowing o
 
 ---
 
-{{< slide background-image="/images/slides/35-interop-roadblocks.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/35-interop-roadblocks.jpeg" background-opacity="0.4" >}}
 
 ### Challenges implementing interoperability
 
@@ -450,7 +467,7 @@ Spinnaker and Backstage both prioritize flexibility and adaptability, allowing o
 
 ---
 
-{{< slide background-image="/images/slides/36-interop-overcoming.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/36-interop-overcoming.jpeg" background-opacity="0.4" >}}
 
 ### Overcoming these hurdles
 
@@ -480,7 +497,7 @@ By applying these strategies and tips, organizations can overcome the common int
 
 ---
 
-{{< slide background-image="/images/slides/37-efficiences.jpeg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/37-efficiences.jpeg" background-opacity="0.3" >}}
 
 >### "ruthlessly eliminating barriers (and blockers) that keep your developers from being successful"
 
